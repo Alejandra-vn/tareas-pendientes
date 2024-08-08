@@ -1,0 +1,104 @@
+/* Importar Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Cambiar a Poppins */
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    background-color: #BDCDD6;
+    background-size: cover;
+}
+
+.contenedor {
+    width: 90%; 
+    max-width: 700px;
+    margin: 40px auto; 
+    padding: 20px; 
+    background-color: rgb(229, 243, 243); 
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.918); 
+}
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+.agregar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    background-color: #BED7DC;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.agregar input {
+    width: 50px;
+    height: 60px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.agregar input::placeholder {
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.agregar i {
+    margin-left: 10px;
+    font-size: 40px;
+    color: #000000;
+}
+
+.agregar i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tareas h2 {
+    margin-bottom: 20px;
+}
+
+.tareas li {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000000;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas {
+    font-size: 18px;
+}
+
+.tareas p {
+    font-weight: bold;
+}
+
+.tareas i:hover {
+    color: #92C7CF;
+    cursor: pointer;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #AAD7D9;
+}
